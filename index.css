@@ -5,12 +5,12 @@ body {
 }
 
 a {
-  color: #2ecc71;
+  color: #3891a6;
 }
 
 a:focus,
 a:hover {
-  color: #f1c40f;
+  color: #f2de48;
   text-decoration: none;
 }
 
@@ -94,7 +94,7 @@ h4 span:first-child {
 }
 
 #content h3 {
-  color: #f1c40f;
+  color: #f2de48;
   font-size: 26px;
   margin-top: -4px;
 }
@@ -108,7 +108,7 @@ h4 span:first-child {
   text-transform: capitalize;
 }
 
-#work .position,
+#myProjects .position,
 #volunteer .position {
   font-weight: bold;
   margin-bottom: 8px;
@@ -125,6 +125,7 @@ h4 span:first-child {
 }
 
 #education .studyType {
+  margin-top: 5px;
   margin-left: 25px;
 }
 
@@ -135,6 +136,36 @@ h4 span:first-child {
 
 #publications .website a:before {
   content: attr(href);
+}
+
+#skills .keywords {
+  padding-left: 20px;
+}
+
+#skills .block {
+  height: 100px;
+}
+
+.row.display-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.row.display-flex > [class*="col-"] {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.marginTop {
+  margin-top: 20px;
 }
 
 @media (min-width: 480px) {
