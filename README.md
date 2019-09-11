@@ -14,4 +14,4 @@ All commands need to be performed in either PowerShell or a Command Shell.
 
 `./index.html`
 
-### See my public [resume](https://paul-002.github.io/Weather-site/).
+### See my public [resume](https://paul-002.github.io/resume/).
