@@ -169,6 +169,12 @@ h4 span:first-child {
 }
 
 @media (min-width: 480px) {
+  .fit-picture {
+    width: 9.5%;
+    height: auto;
+    border-radius: 5%;
+    margin-left: 40px;
+  }
   .strike-through {
     border-top: 1px solid #f4f6f6;
     height: 20px;
@@ -194,6 +200,9 @@ h4 span:first-child {
 }
 
 @media (max-width: 768px) {
+  .fit-picture {
+    display: none;
+  }
   .col-sm-6:last-child {
     margin-bottom: 0px;
   }
