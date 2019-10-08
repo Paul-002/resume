@@ -168,6 +168,11 @@ h4 span:first-child {
   margin-top: 20px;
 }
 
+.rodo {
+  font-size: 10px;
+  font-style: italic;
+}
+
 @media (min-width: 480px) {
   .fit-picture {
     width: 9.5%;
