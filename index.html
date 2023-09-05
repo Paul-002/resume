@@ -22,497 +22,492 @@
   </head>
 
   <body>
-    <div id="resume">
-      <header id="header">
-        <div class="container">
+    <header id="header">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-9 col-sm-push-3">
+            <h1>Paweł Gąsiorowski</h1>
+            <h2>Front-end developer</h2>
+          </div>
+          <img class="fit-picture" src="./me.png" alt="my-photo" />
+        </div>
+      </div>
+    </header>
+
+    <div id="content" class="container">
+      <!-- contact -->
+      <section id="contact" class="row">
+        <aside class="col-sm-3">
+          <h3>Contact</h3>
+        </aside>
+        <div class="col-sm-9">
           <div class="row">
-            <div class="col-sm-9 col-sm-push-3">
-              <h1>Paweł Gąsiorowski</h1>
-              <h2>Front-end developer</h2>
+            <div class="col-sm-6">
+              <strong>Email</strong>
+              <div class="email">pawel.gasiorowski@outlook.com</div>
             </div>
-            <img class="fit-picture" src="./me.png" alt="my-photo" />
+            <div class="col-sm-6">
+              <strong>Phone</strong>
+              <div class="phone">+48 507 550 393</div>
+            </div>
           </div>
         </div>
-      </header>
+      </section>
+      <section id="about" class="row">
+        <aside class="col-sm-3">
+          <h3>About</h3>
+        </aside>
+        <div class="col-sm-9">
+          <p style="text-align: justify">
+            I felt in love with programming since high school. The journey
+            started with building a camera slider for timelapse, from parts
+            "borrowed" from the then working printer. Printer hasn't worked
+            since, but camera slider was way cooler. My satisfaction was
+            directly proportional to the approval of my parents from another
+            destroyed electronics.
+          </p>
+          <p style="text-align: justify">
+            As my career path at the university, I decided to go for a land
+            surveying and cartography studies. During my four years-long
+            journeys, I encountered many problems arising from technological
+            backwardness. Unfinished projects, ideas from past and new aims
+            pushed me back into where I started - improving lives by writing
+            code.
+          </p>
+          <p>
+            Check out my
+            <a
+              href="https://github.com/Paul-002"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              GitHub
+            </a>
+            profile, where I described some of my enjoyable projects in detail.
+          </p>
+        </div>
+      </section>
 
-      <div id="content" class="container">
-        <!-- contact -->
-        <section id="contact" class="row">
-          <aside class="col-sm-3">
-            <h3>Contact</h3>
-          </aside>
-          <div class="col-sm-9">
-            <div class="row">
-              <div class="col-sm-6">
-                <strong>Email</strong>
-                <div class="email">pawel.gasiorowski@outlook.com</div>
-              </div>
-              <div class="col-sm-6">
-                <strong>Phone</strong>
-                <div class="phone">+48 507 550 393</div>
-              </div>
+      <!-- media profiles -->
+      <section id="profiles" class="row">
+        <aside class="col-sm-3">
+          <h3>Profiles</h3>
+        </aside>
+        <div class="col-sm-9">
+          <div class="row">
+            <div class="col-xs-6 col-sm-6">
+              <strong class="network"> Github </strong>
+              <div class="username">Paul-002</div>
+            </div>
+            <div class="col-xs-6 col-sm-6">
+              <strong class="network"> Linkedin </strong>
+              <div class="username">pawel-gasiorowski</div>
             </div>
           </div>
-        </section>
-        <section id="about" class="row">
-          <aside class="col-sm-3">
-            <h3>About</h3>
-          </aside>
-          <div class="col-sm-9">
-            <p style="text-align: justify">
-              I felt in love with programming since high school. The journey
-              started with building a camera slider for timelapse, from parts
-              "borrowed" from the then working printer. Printer hasn't worked
-              since, but camera slider was way cooler. My satisfaction was
-              directly proportional to the approval of my parents from another
-              destroyed electronics.
-            </p>
-            <p style="text-align: justify">
-              As my career path at the university, I decided to go for a land
-              surveying and cartography studies. During my four years-long
-              journeys, I encountered many problems arising from technological
-              backwardness. Unfinished projects, ideas from past and new aims
-              pushed me back into where I started - improving lives by writing
-              code.
-            </p>
-            <p>
-              Check out my
-              <a
-                href="https://github.com/Paul-002"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                GitHub
-              </a>
-              profile, where I described some of my enjoyable projects in
-              detail.
-            </p>
-          </div>
-        </section>
+        </div>
+      </section>
 
-        <!-- media profiles -->
-        <section id="profiles" class="row">
-          <aside class="col-sm-3">
-            <h3>Profiles</h3>
-          </aside>
-          <div class="col-sm-9">
-            <div class="row">
-              <div class="col-xs-6 col-sm-6">
-                <strong class="network"> Github </strong>
-                <div class="username">Paul-002</div>
-              </div>
-              <div class="col-xs-6 col-sm-6">
-                <strong class="network"> Linkedin </strong>
-                <div class="username">pawel-gasiorowski</div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <!-- projects -->
-        <section id="myProjects" class="row">
-          <!-- first commercial project -->
-          <aside class="col-sm-3">
-            <h3>Commercial projects</h3>
-          </aside>
-          <div class="col-sm-9">
-            <div class="row">
-              <div class="col-sm-12">
-                <div class="additional-bottom-space">
-                  <h4 class="strike-through">
-                    <span>Ardentcode - Legal document finder</span>
-                  </h4>
-                  <div>
-                    <p><b> </b></p>
-                  </div>
-                  <div class="position"></div>
-                  <div class="summary">
-                    <p>
-                      Large, scalable <b>TypeScript</b> application based on a
-                      <b>monorepo</b> structure, divided into multiple products
-                      following a <b>microservices architecture</b> to enhance
-                      modularity and ease of maintenance.
-                    </p>
-                    <p>
-                      As a
-                      <b>TypeScript developer</b>, I was responsible for
-                      maintaining existing code, refactoring, and introducing
-                      enhancements to existing technical solutions. Also worked
-                      on <b>new application features</b>, including
-                      <b>code development</b> and cross-product integrations.
-                    </p>
-                    <p>
-                      Furthermore, as part of my responsibilities, I was
-                      involved in process of managing <b>app releases</b>.
-                      Starting from release notes, went through the entire
-                      <b>Continuous Delivery</b> process, and culminated in
-                      <b>releasing</b> application on the
-                      <b>production</b> environment.
-                    </p>
-                    <p>
-                      Participated in unit tests and worked on complementary
-                      <b>E2E</b> tests, enhancing the application's coverage for
-                      the areas or functionalities I was working on.
-                    </p>
-                  </div>
-                  <h4>Technologies & tools used:</h4>
-                  <ul class="highlights">
-                    <li class="bullet">
-                      Custom framework based on the
-                      <b>TypeScript</b> programming language.
-                    </li>
-                    <li class="bullet">
-                      Unit testing and E2E test handled by
-                      <b>Jest</b> framework.
-                    </li>
-                    <li class="bullet">
-                      Declarative application routing used for managing the
-                      application state and handling asynchronous requests.
-                    </li>
-                    <li class="bullet">
-                      <b>OAuth2</b> for user authentication security best
-                      practices to safeguard user data.
-                    </li>
-                    <li class="bullet">
-                      Project management, repositories, <b>CI/CD</b> based on
-                      <b>Atlassian products</b> (Jira, Bitbucket, Confluence,
-                      Trello).
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- second commercial project -->
-          <aside class="col-sm-3"></aside>
-          <div class="col-sm-9">
-            <div class="row">
-              <div class="col-sm-12">
-                <div class="additional-bottom-space">
-                  <h4 class="strike-through">
-                    <span
-                      >Ardentcode - Training planner & performance tracker</span
-                    >
-                  </h4>
-                  <div>
-                    <b> </b>
-                  </div>
-                  <div class="position"></div>
-                  <div class="summary">
-                    <p>
-                      Bi-directional athlete training planner application that
-                      facilitates effective communication and personalized
-                      exercise plans for athletes.
-                    </p>
-                    <p>
-                      Coaches can easily prepare weekly training regimens
-                      tailored to their athletes goals and needs, while athletes
-                      can provide real-time performance data via workout apps.
-                    </p>
-                  </div>
-                  <h4>Key features:</h4>
-                  <ul class="highlights">
-                    <li class="bullet">
-                      <b>Customized training plans:</b> Coaches can create
-                      individualized training plans for each athlete, optimizing
-                      their performance and progress.
-                    </li>
-                    <li class="bullet">
-                      <b>Two-way communication:</b> Coaches and athletes to
-                      exchange feedback, questions, and updates regarding
-                      training and performance.
-                    </li>
-                    <li class="bullet">
-                      <b>Performance tracking:</b> Athletes can log their
-                      training sessions, nutrition, and recovery data. Coaches
-                      analyze this information to make informed decisions about
-                      future training.
-                    </li>
-                    <li class="bullet">
-                      <b>Data-Driven Insights:</b> Coaches use real-time
-                      statistics to adjust training plans, ensuring continuous
-                      improvement and injury prevention.
-                    </li>
-                  </ul>
-                  <h4>Tech stack:</h4>
-                  <ul class="highlights">
-                    <li class="bullet">
-                      <b>Backend & Database:</b> Node.js + Express + MongoDB
-                    </li>
-                    <li class="bullet">
-                      <b>Frontend:</b> React + Storeon + CSS Modules
-                    </li>
-                    <li class="bullet">
-                      <b>PWA:</b> Offline access and a seamless mobile
-                      experience
-                    </li>
-                    <li class="bullet">
-                      <b>Continuous Integration:</b> Gitlab CI
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- first non-commercial project -->
-          <aside class="col-sm-3">
-            <h3>My projects</h3>
-          </aside>
-          <div class="col-sm-9">
-            <div class="row">
-              <div class="col-sm-12">
-                <div class="additional-bottom-space">
-                  <h4 class="strike-through">
-                    <span>Space Gatsby </span>
-                  </h4>
-                  <div>
-                    <a
-                      href="https://github.com/Paul-002/space_gatsby"
-                      rel="noopener noreferrer"
-                      target="_blank"
-                    >
-                      https://paul-002.github.io/space_gatsby
-                    </a>
-                  </div>
-                  <div class="position"></div>
-                  <div class="summary">
-                    <p>
-                      Space Gatsby is <b>React</b>-based,
-                      <b>GraphQL</b> powered, static <b>PWA</b>.
-                    </p>
-                    <p>
-                      Inspired by the prelection on CodeMeetings #13 by
-                      <a
-                        href="https://www.linkedin.com/in/rafal-budzis"
-                        rel="noopener noreferrer"
-                        target="_blank"
-                      >
-                        Rafał Budzis
-                      </a>
-                      I decided to make gradual migration my project to
-                      <b>TypeScript</b>.
-                    </p>
-                  </div>
-                  <h4>Features:</h4>
-                  <ul class="highlights">
-                    <li class="bullet">
-                      Creating pages dynamically through third-party
-                      <b>GraphQL API</b>,
-                    </li>
-                    <li class="bullet">
-                      Site styled with Google's <b>Material UI</b> and
-                      <b>CSS Modules</b>, RWD,
-                    </li>
-                    <li class="bullet">
-                      Generate new pages <b>programmatically</b> by using .md
-                      and .mdx files,
-                    </li>
-                    <li class="bullet">Lazy loading images.</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- second non-commercial project -->
-          <aside class="col-sm-3"></aside>
-          <div class="col-sm-9">
-            <div class="row">
-              <div class="col-sm-12">
-                <div class="additional-bottom-space">
-                  <h4 class="strike-through">
-                    <span>React ramen app</span>
-                  </h4>
-                  <div>
-                    <a
-                      href="https://github.com/Paul-002/react-ramen-app"
-                      rel="noopener noreferrer"
-                      target="_blank"
-                    >
-                      https://github.com/Paul-002/react-ramen-app
-                    </a>
-                  </div>
-                  <div class="position"></div>
-                  <div class="summary">
-                    <p>
-                      Ramen-app is a <b>SPA</b> based on
-                      <b>React.js</b> library. For all HTTP requests is
-                      responsible <b>Axios</b> client. For backend support, I
-                      used the Google's Firebase platform.
-                    </p>
-                  </div>
-                  <h4>Features:</h4>
-                  <ul class="highlights">
-                    <li class="bullet">Routing with <b>React Router</b>,</li>
-                    <li class="bullet">
-                      <b>Firebase</b> Authentication and user database,
-                    </li>
-                    <li class="bullet"><b>Redux</b> state management,</li>
-                    <li class="bullet">Navigating <b>programmatically</b>,</li>
-                    <li class="bullet">Reporting error messages.</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- third non-commercial project -->
-          <aside class="col-sm-3"></aside>
-          <div class="col-sm-9">
-            <div class="row">
-              <div class="col-sm-12">
+      <!-- projects -->
+      <section id="myProjects" class="row">
+        <!-- first commercial project -->
+        <aside class="col-sm-3">
+          <h3>Commercial projects</h3>
+        </aside>
+        <div class="col-sm-9">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="additional-bottom-space">
                 <h4 class="strike-through">
-                  <span>Weather site</span>
+                  <span>Ardentcode - Legal document finder</span>
+                </h4>
+                <div>
+                  <p><b> </b></p>
+                </div>
+                <div class="position"></div>
+                <div class="summary">
+                  <p>
+                    Large, scalable <b>TypeScript</b> application based on a
+                    <b>monorepo</b> structure, divided into multiple products
+                    following a <b>microservices architecture</b> to enhance
+                    modularity and ease of maintenance.
+                  </p>
+                  <p>
+                    As a
+                    <b>TypeScript developer</b>, I was responsible for
+                    maintaining existing code, refactoring, and introducing
+                    enhancements to existing technical solutions. Also worked on
+                    <b>new application features</b>, including
+                    <b>code development</b> and cross-product integrations.
+                  </p>
+                  <p>
+                    Furthermore, as part of my responsibilities, I was involved
+                    in process of managing <b>app releases</b>. Starting from
+                    release notes, went through the entire
+                    <b>Continuous Delivery</b> process, and culminated in
+                    <b>releasing</b> application on the
+                    <b>production</b> environment.
+                  </p>
+                  <p>
+                    Participated in unit tests and worked on complementary
+                    <b>E2E</b> tests, enhancing the application's coverage for
+                    the areas or functionalities I was working on.
+                  </p>
+                </div>
+                <h4>Technologies & tools used:</h4>
+                <ul class="highlights">
+                  <li class="bullet">
+                    Custom framework based on the
+                    <b>TypeScript</b> programming language.
+                  </li>
+                  <li class="bullet">
+                    Unit testing and E2E test handled by
+                    <b>Jest</b> framework.
+                  </li>
+                  <li class="bullet">
+                    Declarative application routing used for managing the
+                    application state and handling asynchronous requests.
+                  </li>
+                  <li class="bullet">
+                    <b>OAuth2</b> for user authentication security best
+                    practices to safeguard user data.
+                  </li>
+                  <li class="bullet">
+                    Project management, repositories, <b>CI/CD</b> based on
+                    <b>Atlassian products</b> (Jira, Bitbucket, Confluence,
+                    Trello).
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- second commercial project -->
+        <aside class="col-sm-3"></aside>
+        <div class="col-sm-9">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="additional-bottom-space">
+                <h4 class="strike-through">
+                  <span
+                    >Ardentcode - Training planner & performance tracker</span
+                  >
+                </h4>
+                <div>
+                  <b> </b>
+                </div>
+                <div class="position"></div>
+                <div class="summary">
+                  <p>
+                    Bi-directional athlete training planner application that
+                    facilitates effective communication and personalized
+                    exercise plans for athletes.
+                  </p>
+                  <p>
+                    Coaches can easily prepare weekly training regimens tailored
+                    to their athletes goals and needs, while athletes can
+                    provide real-time performance data via workout apps.
+                  </p>
+                </div>
+                <h4>Key features:</h4>
+                <ul class="highlights">
+                  <li class="bullet">
+                    <b>Customized training plans:</b> Coaches can create
+                    individualized training plans for each athlete, optimizing
+                    their performance and progress.
+                  </li>
+                  <li class="bullet">
+                    <b>Two-way communication:</b> Coaches and athletes to
+                    exchange feedback, questions, and updates regarding training
+                    and performance.
+                  </li>
+                  <li class="bullet">
+                    <b>Performance tracking:</b> Athletes can log their training
+                    sessions, nutrition, and recovery data. Coaches analyze this
+                    information to make informed decisions about future
+                    training.
+                  </li>
+                  <li class="bullet">
+                    <b>Data-Driven Insights:</b> Coaches use real-time
+                    statistics to adjust training plans, ensuring continuous
+                    improvement and injury prevention.
+                  </li>
+                </ul>
+                <h4>Tech stack:</h4>
+                <ul class="highlights">
+                  <li class="bullet">
+                    <b>Backend & Database:</b> Node.js + Express + MongoDB
+                  </li>
+                  <li class="bullet">
+                    <b>Frontend:</b> React + Storeon + CSS Modules
+                  </li>
+                  <li class="bullet">
+                    <b>PWA:</b> Offline access and a seamless mobile experience
+                  </li>
+                  <li class="bullet">
+                    <b>Continuous Integration:</b> Gitlab CI
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- first non-commercial project -->
+        <aside class="col-sm-3">
+          <h3>My projects</h3>
+        </aside>
+        <div class="col-sm-9">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="additional-bottom-space">
+                <h4 class="strike-through">
+                  <span>Space Gatsby </span>
                 </h4>
                 <div>
                   <a
-                    href="https://github.com/Paul-002/Weather-site"
+                    href="https://github.com/Paul-002/space_gatsby"
                     rel="noopener noreferrer"
                     target="_blank"
                   >
-                    https://github.com/Paul-002/Weather-site
+                    https://paul-002.github.io/space_gatsby
                   </a>
                 </div>
                 <div class="position"></div>
                 <div class="summary">
                   <p>
-                    One of the first <b>JavaScript</b> projects. Fun with
-                    XMLHttpRequest, processing <b>JSON</b> data received from
-                    the OpenWeatherMap API, passing parameters in functions,
-                    returning values.
+                    Space Gatsby is <b>React</b>-based, <b>GraphQL</b> powered,
+                    static <b>PWA</b>.
+                  </p>
+                  <p>
+                    Inspired by the prelection on CodeMeetings #13 by
+                    <a
+                      href="https://www.linkedin.com/in/rafal-budzis"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      Rafał Budzis
+                    </a>
+                    I decided to make gradual migration my project to
+                    <b>TypeScript</b>.
                   </p>
                 </div>
-                <h4>Technologies</h4>
+                <h4>Features:</h4>
                 <ul class="highlights">
-                  <li class="bullet"><b>Vnilla.js</b></li>
-                  <li class="bullet">HTML5</li>
-                  <li class="bullet">CSS3</li>
+                  <li class="bullet">
+                    Creating pages dynamically through third-party
+                    <b>GraphQL API</b>,
+                  </li>
+                  <li class="bullet">
+                    Site styled with Google's <b>Material UI</b> and
+                    <b>CSS Modules</b>, RWD,
+                  </li>
+                  <li class="bullet">
+                    Generate new pages <b>programmatically</b> by using .md and
+                    .mdx files,
+                  </li>
+                  <li class="bullet">Lazy loading images.</li>
                 </ul>
               </div>
             </div>
           </div>
-        </section>
+        </div>
 
-        <!-- skills -->
-        <section id="skills" class="row">
-          <aside class="col-sm-3">
-            <h3>Skills</h3>
-          </aside>
-          <div class="col-sm-9">
-            <div class="row display-flex">
-              <div class="col-xs-4 col-sm-4">
-                <div class="name">
-                  <h4>Language</h4>
-                </div>
-                <ul class="keywords">
-                  <li>JavaScript ES6</li>
-                  <li>TypeScript</li>
-                </ul>
-              </div>
-
-              <div class="col-xs-4 col-sm-4">
-                <div class="name">
-                  <h4>Libraries</h4>
-                </div>
-                <ul class="keywords">
-                  <li>React.js</li>
-                  <li>Redux</li>
-                </ul>
-              </div>
-
-              <div class="col-xs-4 col-sm-4">
-                <div class="name">
-                  <h4>Style</h4>
-                </div>
-                <ul class="keywords">
-                  <li>SASS</li>
-                  <li>CSS Modules</li>
-                  <li>Material-UI</li>
-                  <li>Tailwind CSS</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <!-- education -->
-        <section id="education" class="row">
-          <aside class="col-sm-3">
-            <h3>Education</h3>
-          </aside>
-          <div class="col-sm-9">
-            <div class="row">
-              <div class="col-sm-12">
+        <!-- second non-commercial project -->
+        <aside class="col-sm-3"></aside>
+        <div class="col-sm-9">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="additional-bottom-space">
                 <h4 class="strike-through">
-                  <span>University of Social Sciences in Łódź</span>
+                  <span>React ramen app</span>
                 </h4>
-                <div class="area">Surveying and Cartography</div>
-                <div class="studyType">Engineering studies</div>
+                <div>
+                  <a
+                    href="https://github.com/Paul-002/react-ramen-app"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    https://github.com/Paul-002/react-ramen-app
+                  </a>
+                </div>
+                <div class="position"></div>
+                <div class="summary">
+                  <p>
+                    Ramen-app is a <b>SPA</b> based on <b>React.js</b> library.
+                    For all HTTP requests is responsible <b>Axios</b> client.
+                    For backend support, I used the Google's Firebase platform.
+                  </p>
+                </div>
+                <h4>Features:</h4>
+                <ul class="highlights">
+                  <li class="bullet">Routing with <b>React Router</b>,</li>
+                  <li class="bullet">
+                    <b>Firebase</b> Authentication and user database,
+                  </li>
+                  <li class="bullet"><b>Redux</b> state management,</li>
+                  <li class="bullet">Navigating <b>programmatically</b>,</li>
+                  <li class="bullet">Reporting error messages.</li>
+                </ul>
               </div>
             </div>
           </div>
-        </section>
+        </div>
 
-        <!-- languages -->
-        <section id="languages" class="row">
-          <aside class="col-sm-3">
-            <h3>Languages</h3>
-          </aside>
-          <div class="col-sm-9">
-            <div class="row">
-              <div class="col-xs-4 col-sm-3">
-                <div class="language">
-                  <strong>Polish (native)</strong>
-                </div>
+        <!-- third non-commercial project -->
+        <aside class="col-sm-3"></aside>
+        <div class="col-sm-9">
+          <div class="row">
+            <div class="col-sm-12">
+              <h4 class="strike-through">
+                <span>Weather site</span>
+              </h4>
+              <div>
+                <a
+                  href="https://github.com/Paul-002/Weather-site"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  https://github.com/Paul-002/Weather-site
+                </a>
               </div>
-              <div class="col-xs-4 col-sm-3">
-                <div class="language">
-                  <strong>English B1+</strong>
-                </div>
+              <div class="position"></div>
+              <div class="summary">
+                <p>
+                  One of the first <b>JavaScript</b> projects. Fun with
+                  XMLHttpRequest, processing <b>JSON</b> data received from the
+                  OpenWeatherMap API, passing parameters in functions, returning
+                  values.
+                </p>
+              </div>
+              <h4>Technologies</h4>
+              <ul class="highlights">
+                <li class="bullet"><b>Vnilla.js</b></li>
+                <li class="bullet">HTML5</li>
+                <li class="bullet">CSS3</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- skills -->
+      <section id="skills" class="row">
+        <aside class="col-sm-3">
+          <h3>Skills</h3>
+        </aside>
+        <div class="col-sm-9">
+          <div class="row display-flex">
+            <div class="col-xs-4 col-sm-4">
+              <div class="name">
+                <h4>Language</h4>
+              </div>
+              <ul class="keywords">
+                <li>JavaScript ES6</li>
+                <li>TypeScript</li>
+              </ul>
+            </div>
+
+            <div class="col-xs-4 col-sm-4">
+              <div class="name">
+                <h4>Libraries</h4>
+              </div>
+              <ul class="keywords">
+                <li>React.js</li>
+                <li>Redux</li>
+              </ul>
+            </div>
+
+            <div class="col-xs-4 col-sm-4">
+              <div class="name">
+                <h4>Style</h4>
+              </div>
+              <ul class="keywords">
+                <li>SASS</li>
+                <li>CSS Modules</li>
+                <li>Material-UI</li>
+                <li>Tailwind CSS</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- education -->
+      <section id="education" class="row">
+        <aside class="col-sm-3">
+          <h3>Education</h3>
+        </aside>
+        <div class="col-sm-9">
+          <div class="row">
+            <div class="col-sm-12">
+              <h4 class="strike-through">
+                <span>University of Social Sciences in Łódź</span>
+              </h4>
+              <div class="area">Surveying and Cartography</div>
+              <div class="studyType">Engineering studies</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- languages -->
+      <section id="languages" class="row">
+        <aside class="col-sm-3">
+          <h3>Languages</h3>
+        </aside>
+        <div class="col-sm-9">
+          <div class="row">
+            <div class="col-xs-4 col-sm-3">
+              <div class="language">
+                <strong>Polish (native)</strong>
+              </div>
+            </div>
+            <div class="col-xs-4 col-sm-3">
+              <div class="language">
+                <strong>English B1+</strong>
               </div>
             </div>
           </div>
-        </section>
+        </div>
+      </section>
 
-        <!-- interests -->
-        <section id="interests" class="row">
-          <aside class="col-sm-3">
-            <h3>Interests</h3>
-          </aside>
-          <div class="col-sm-9">
-            <p>
-              I have always been passionate about cosmos and space flights. I
-              play as a second baseman at the Barons Wrocław baseball club. I
-              try to spend weekends away from the city, usually in the mountains
-              which I am a big fan of. Long trips on a road bike are also not a
-              problem, try to push my limits and set more difficult routes and
-              distances. For me, cycling serves as a substitute for riding a
-              motorcycle on which I used to ride a lot. DIY and restoration of
-              vintage motorcycles is something I would like to come back to.
-            </p>
-          </div>
-        </section>
-        <section class="row">
-          <div class="col-sm-12">
-            <p class="rodo">
-              I agree to the processing of personal data provided in this
-              document for realising the recruitment process pursuant to the
-              Personal Data Protection Act of 10 May 2018 (Journal of Laws 2018,
-              item 1000) and in agreement with Regulation (EU) 2016/679 of the
-              European Parliament and of the Council of 27 April 2016 on the
-              protection of natural persons with regard to the processing of
-              personal data and on the free movement of such data, and repealing
-              Directive 95/46/EC (General Data Protection Regulation).
-            </p>
-          </div>
-        </section>
-        <div class="col-sm-12">
+      <!-- interests -->
+      <section id="interests" class="row">
+        <aside class="col-sm-3">
+          <h3>Interests</h3>
+        </aside>
+        <div class="col-sm-9">
           <p>
-            <i class="rodo"></i>
+            I have always been passionate about cosmos and space flights. I play
+            as a second baseman at the Barons Wrocław baseball club. I try to
+            spend weekends away from the city, usually in the mountains which I
+            am a big fan of. Long trips on a road bike are also not a problem,
+            try to push my limits and set more difficult routes and distances.
+            For me, cycling serves as a substitute for riding a motorcycle on
+            which I used to ride a lot. DIY and restoration of vintage
+            motorcycles is something I would like to come back to.
           </p>
         </div>
+      </section>
+      <section class="row">
+        <div class="col-sm-12">
+          <p class="rodo">
+            I agree to the processing of personal data provided in this document
+            for realising the recruitment process pursuant to the Personal Data
+            Protection Act of 10 May 2018 (Journal of Laws 2018, item 1000) and
+            in agreement with Regulation (EU) 2016/679 of the European
+            Parliament and of the Council of 27 April 2016 on the protection of
+            natural persons with regard to the processing of personal data and
+            on the free movement of such data, and repealing Directive 95/46/EC
+            (General Data Protection Regulation).
+          </p>
+        </div>
+      </section>
+      <div class="col-sm-12">
+        <p>
+          <i class="rodo"></i>
+        </p>
       </div>
     </div>
   </body>
