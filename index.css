@@ -244,6 +244,20 @@ h4 span:first-child {
   }
 }
 
+/* additional style adjusments */
+
+.reduce-margin-0 {
+  margin-top: 0;
+}
+
+.reduce-margin-10 {
+  margin-top: 10px;
+}
+
+.reduce-margin-15 {
+  margin-top: 15px;
+}
+
 .additional-bottom-space {
   margin-bottom: 20px;
 }
