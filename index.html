@@ -15,6 +15,10 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
     <link rel="stylesheet" type="text/css" href="index.css" />
     <style>
       @import url("https://fonts.googleapis.com/css?family=Lato:400,700");
@@ -29,13 +33,15 @@
             <div class="col-sm-9 col-sm-push-3">
               <h1>Paweł Gąsiorowski</h1>
               <h2>Front-end developer</h2>
+              <h5>3.6 years of professional programming experience.</h5>
             </div>
-            <img class="fit-picture" src="./me.png" alt="my-photo" />
+            <!-- <img class="fit-picture" src="./me.png" alt="my-photo" /> -->
           </div>
         </div>
       </header>
 
       <div id="content" class="container">
+
         <!-- contact -->
         <section id="contact" class="row">
           <aside class="col-sm-3">
@@ -43,54 +49,21 @@
           </aside>
           <div class="col-sm-9">
             <div class="row">
-              <div class="col-sm-6">
+              <div class="col-xs-6 col-sm-6">
+                <i class="bi bi-envelope-at"></i>
                 <strong>Email</strong>
                 <div type class="email">
                   <a href="mailto:pawel.gasiorowski@outlook.com"
-                    >pawel.gasiorowski@outlook.com</a
+                    >pawel.gasiorowski&#x200B;@outlook.com</a
                   >
                 </div>
               </div>
-              <div class="col-sm-6">
-                <strong>Phone</strong>
+              <div class="col-xs-6 col-sm-6">
+                <i class="bi bi-telephone"></i>
+                <strong> Phone </strong>
                 <div class="phone">+48 507 550 393</div>
               </div>
             </div>
-          </div>
-        </section>
-        <section id="about" class="row">
-          <aside class="col-sm-3">
-            <h3>About</h3>
-          </aside>
-          <div class="col-sm-9">
-            <p style="text-align: justify">
-              I felt in love with programming since high school. The journey
-              started with building a camera slider for timelapse, from parts
-              "borrowed" from the then working printer. Printer hasn't worked
-              since, but camera slider was way cooler. My satisfaction was
-              directly proportional to the approval of my parents from another
-              destroyed electronics.
-            </p>
-            <p style="text-align: justify">
-              As my career path at the university, I decided to go for a land
-              surveying and cartography studies. During my four years-long
-              journeys, I encountered many problems arising from technological
-              backwardness. Unfinished projects, ideas from past and new aims
-              pushed me back into where I started - improving lives by writing
-              code.
-            </p>
-            <p>
-              Check out my
-              <a
-                href="https://github.com/Paul-002"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                GitHub
-              </a>
-              profile, where I described some of my enjoyable projects in
-              detail.
-            </p>
           </div>
         </section>
 
@@ -102,14 +75,117 @@
           <div class="col-sm-9">
             <div class="row">
               <div class="col-xs-6 col-sm-6">
+                <i class="bi bi-github"></i>
                 <strong class="network"> GitHub </strong>
-                <div class="username">Paul-002</div>
+                <div class="username">
+                  <a
+                    href="https://github.com/Paul-002"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    Paul-002
+                  </a>
+                </div>
               </div>
               <div class="col-xs-6 col-sm-6">
+                <i class="bi bi-linkedin"></i>
                 <strong class="network"> LinkedIn </strong>
-                <div class="username">pawel-gasiorowski</div>
+                <div class="username">
+                  <a
+                    href="https://linkedin.com/in/pawel-gasiorowski"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    pawel-gasiorowski
+                  </a>
+                </div>
               </div>
             </div>
+          </div>
+        </section>
+
+        <!-- skills -->
+        <section id="skills" class="row">
+          <aside class="col-sm-3">
+            <h3>Skills</h3>
+          </aside>
+          <div class="col-sm-9">
+            <div class="row skill-container">
+              <div class="col-sm-2">
+                <h4 class="low-margin-bottom">Language:</h4>
+              </div>
+              <div class="col-sm-10">
+                <span>JavaScript ES6 <span class="extra-space">|</span> TypeScript</span>
+              </div>
+            </div>
+
+            <!-- <div class="row col-12 underline"></div> -->
+
+            <div class="row skill-container">
+              <div class="col-sm-2">
+                <h4 class="low-margin-bottom">Libraries:</h4>
+              </div>
+              <div class="col-sm-10">
+                <span>React.js <span class="extra-space">|</span class="extra-space"> Redux <span class="extra-space">|</span class="extra-space"> jQuery <span class="extra-space">|</span class="extra-space"> Chart.js <span class="extra-space">|</span class="extra-space"> Gatsby <span class="extra-space">|</span class="extra-space"> Jest <span class="extra-space">|</span class="extra-space"> Bootstrap</span>
+              </div>
+            </div>
+
+            <!-- <div class="row col-12 underline"></div> -->
+
+            <div class="row skill-container">
+              <div class="col-sm-2">
+                <h4 class="low-margin-bottom">Style:</h4>
+              </div>
+              <div class="col-sm-10">
+                <span>HTML <span class="extra-space">|</span> CSS3 <span class="extra-space">|</span> SASS <span class="extra-space">|</span> RWD <span class="extra-space">|</span> CSS Modules <span class="extra-space">|</span> Material-UI <span class="extra-space">|</span> Tailwind</span>
+              </div>
+            </div>
+
+            <!-- <div class="row col-12 underline"></div> -->
+
+            <div class="row skill-container">
+              <div class="col-sm-2">
+                <h4 class="low-margin-bottom">Tools:</h4>
+              </div>
+              <div class="col-sm-10">
+                <span>Atlassian <span class="extra-space">|</span> Jira <span class="extra">|</span> Confluence <span class="extra">|</span> Bitbucket <span class="extra">|</span> Trello <span class="extra">|</span> Bamboo <span class="extra">|</span>
+                  Figma</span>
+              </div>
+            </div>
+
+            <!-- <div class="row col-12 underline"></div> -->
+
+            <div class="row">
+              <div class="col-sm-2">
+                <h4 class="low-margin-bottom">Familiar with:</h4>
+              </div>
+              <div class="col-sm-10">
+                <span>Web API - REST <span class="extra-space">|</span> JSON <span class="extra-space">|</span> Postman <span class="extra-space">|</span> Microservices <span class="extra-space">|</span> Design
+                  Patterns <span class="extra-space">|</span> OOP <span class="extra-space">|</span> Clean code <span class="extra-space">|</span> SOLID <span class="extra-space">|</span> Webpack <span class="extra-space">|</span> Rush.js <span class="extra-space">|</span> Lerna <span class="extra-space">|</span>
+                  <span class="extra-space">|</span> GIT <span class="extra-space">|</span> SQL <span class="extra-space">|</span> mongoDB <span class="extra-space">|</span> Kibana <span class="extra-space">|</span> UI/UX <span class="extra-space">|</span> CI/CD</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- about -->
+        <section id="about" class="row">
+          <aside class="col-sm-3">
+            <h3>About</h3>
+          </aside>
+          <div class="col-sm-9">
+            <p style="text-align: justify">
+              Inspired by programming since high school. The journey started
+              with building a camera slider for timelapse, from parts "borrowed"
+              from the then working printer. Printer hasn't worked since, but
+              camera slider was way cooler.
+            </p>
+            <p style="text-align: justify">
+              As my career path at the university, I decided to go for a land
+              surveying and cartography studies. Ideas from the past, deriving enjoyment
+              from technology and satisfying my curiosity led me back to delving into the
+              world of programming.
+            </p>
           </div>
         </section>
 
@@ -139,11 +215,11 @@
                   <div class="position"></div>
                   <div class="summary">
                     <p>
-                      Large, scalable <b>TypeScript</b> applications based on
-                      in-house React-like framework. The project utilizes a
+                      Five applications based on
+                      in-house <b>React</b>-like framework. The project utilizes a
                       <b>monorepo</b> setup with over 120 reusable packages
-                      managed by <b>Rush.js</b>, with a high focus on an atomic
-                      approach, modularity, and reusability.
+                      managed by <b>Rush.js</b>, with a high focus on an <b>atomic
+                        approach</b>, modularity, and reusability.
                     </p>
                     <p>
                       As a
@@ -154,7 +230,7 @@
                       <b>code development</b> and cross-product integrations.
                     </p>
                     <p>
-                      Furthermore, as part of my responsibilities, I was
+                      Furthermore, I was
                       involved in process of managing <b>app releases</b>.
                       Starting from release notes, went through the entire
                       <b>Continuous Delivery</b> process, and culminated in
@@ -163,35 +239,10 @@
                     </p>
                     <p>
                       Participated in unit tests and worked on complementary
-                      <b>E2E</b> tests, enhancing the application's coverage for
-                      the areas or functionalities I was working on.
+                      <b>E2E</b> tests handled by <b>Jest</b>.
                     </p>
+                    <p>Server side - Node.js + Express, communicating with complex backend platforms using <b>OData</b> REST protocol.</p>
                   </div>
-                  <div class="html2pdf__page-break"></div>
-                  <h4>Technologies & tools used:</h4>
-                  <ul class="highlights">
-                    <li class="bullet">
-                      Custom framework based on the
-                      <b>TypeScript</b> programming language.
-                    </li>
-                    <li class="bullet">
-                      Unit testing and E2E tests handled by
-                      <b>Jest</b> framework.
-                    </li>
-                    <li class="bullet">
-                      Declarative application routing used for managing the
-                      application state and handling asynchronous requests.
-                    </li>
-                    <li class="bullet">
-                      <b>OAuth2</b> for user authentication security best
-                      practices to safeguard user data.
-                    </li>
-                    <li class="bullet">
-                      Project management, repositories, <b>CI/CD</b> based on
-                      <b>Atlassian products</b> (Jira, Bitbucket, Confluence,
-                      Trello).
-                    </li>
-                  </ul>
                 </div>
               </div>
             </div>
@@ -224,11 +275,6 @@
                       facilitates effective communication and personalized
                       exercise plans for athletes.
                     </p>
-                    <p>
-                      Coaches can easily prepare weekly training regimens
-                      tailored to their athletes goals and needs, while athletes
-                      can provide real-time performance data via workout apps.
-                    </p>
                   </div>
                   <h4>Key features:</h4>
                   <ul class="highlights">
@@ -241,17 +287,6 @@
                       <b>Two-way communication:</b> Coaches and athletes to
                       exchange feedback, questions, and updates regarding
                       training and performance.
-                    </li>
-                    <li class="bullet">
-                      <b>Performance tracking:</b> Athletes can log their
-                      training sessions, nutrition, and recovery data. Coaches
-                      analyze this information to make informed decisions about
-                      future training.
-                    </li>
-                    <li class="bullet">
-                      <b>Data-Driven Insights:</b> Coaches use statistics to
-                      adjust training plans, ensuring continuous improvement and
-                      injury prevention.
                     </li>
                   </ul>
                   <h4>Tech stack:</h4>
@@ -294,8 +329,8 @@
                   <div class="position"></div>
                   <div class="summary">
                     <p>
-                      Space Gatsby is <b>React</b>-based,
-                      <b>GraphQL</b> powered, static <b>PWA</b>.
+                      Space Gatsby is a <b>React</b>-based static <b>PWA</b>, powered by third-party
+                      <b>GraphQL API</b>.
                     </p>
                     <p>
                       Inspired by the prelection on CodeMeetings #13 by
@@ -308,25 +343,9 @@
                       </a>
                       I decided to make gradual migration my project to
                       <b>TypeScript</b>.
+                      <p>See all features described in my project's README file.</p>
                     </p>
                   </div>
-                  <h4>Features:</h4>
-                  <ul class="highlights">
-                    <li class="bullet">
-                      Creating pages dynamically through third-party
-                      <b>GraphQL API</b>,
-                    </li>
-                    <li class="bullet">
-                      Site styled with Google's <b>Material UI</b> and
-                      <b>CSS Modules</b>, RWD,
-                    </li>
-                    <div class="html2pdf__page-break"></div>
-                    <li class="bullet">
-                      Generate new pages <b>programmatically</b> by using .md
-                      and .mdx files,
-                    </li>
-                    <li class="bullet">Lazy loading images.</li>
-                  </ul>
                 </div>
               </div>
             </div>
@@ -354,21 +373,12 @@
                   <div class="summary">
                     <p>
                       Ramen-app is a <b>SPA</b> based on
-                      <b>React.js</b> library. For all HTTP requests is
-                      responsible <b>Axios</b> client. For backend support, I
-                      used the Google's Firebase platform.
+                      <b>React.js</b> library. Routing hanled by
+                      <b>React Router</b>. State management - <b>Redux</b>. For
+                      all HTTP requests I used <b>Axios</b> client. For backend
+                      support, I used the Google's Firebase platform.
                     </p>
                   </div>
-                  <h4>Features:</h4>
-                  <ul class="highlights">
-                    <li class="bullet">Routing with <b>React Router</b>,</li>
-                    <li class="bullet">
-                      <b>Firebase</b> Authentication and user database,
-                    </li>
-                    <li class="bullet"><b>Redux</b> state management,</li>
-                    <li class="bullet">Navigating <b>programmatically</b>,</li>
-                    <li class="bullet">Reporting error messages.</li>
-                  </ul>
                 </div>
               </div>
             </div>
@@ -394,67 +404,19 @@
                 <div class="position"></div>
                 <div class="summary">
                   <p>
-                    One of the first <b>JavaScript</b> projects. Fun with
-                    XMLHttpRequest, processing <b>JSON</b> data received from
-                    the OpenWeatherMap API, passing parameters in functions,
-                    returning values.
+                    One of the first <b>JavaScript</b> projects. Written in most
+                    lightweight framework (0KB gziped). Fun with XMLHttpRequest,
+                    processing <b>JSON</b> data received from the OpenWeatherMap
+                    API.
                   </p>
                 </div>
-                <h4>Technologies</h4>
-                <ul class="highlights">
-                  <li class="bullet"><b>Vanilla.js</b></li>
-                  <li class="bullet">HTML5</li>
-                  <li class="bullet">CSS3</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <!-- skills -->
-        <section id="skills" class="row reduce-margin-10">
-          <aside class="col-sm-3">
-            <h3>Skills</h3>
-          </aside>
-          <div class="col-sm-9">
-            <div class="row display-flex">
-              <div class="col-xs-4 col-sm-4">
-                <div class="name">
-                  <h4>Language</h4>
-                </div>
-                <ul class="keywords">
-                  <li>JavaScript ES6</li>
-                  <li>TypeScript</li>
-                </ul>
-              </div>
-
-              <div class="col-xs-4 col-sm-4">
-                <div class="name">
-                  <h4>Libraries</h4>
-                </div>
-                <ul class="keywords">
-                  <li>React.js</li>
-                  <li>Redux</li>
-                </ul>
-              </div>
-
-              <div class="col-xs-4 col-sm-4">
-                <div class="name">
-                  <h4>Style</h4>
-                </div>
-                <ul class="keywords">
-                  <li>SASS</li>
-                  <li>CSS Modules</li>
-                  <li>Material-UI</li>
-                  <li>Tailwind CSS</li>
-                </ul>
               </div>
             </div>
           </div>
         </section>
 
         <!-- education -->
-        <section id="education" class="row reduce-margin-0">
+        <section id="education" class="row">
           <aside class="col-sm-3">
             <h3>Education</h3>
           </aside>
@@ -499,18 +461,18 @@
           </aside>
           <div class="col-sm-9">
             <p>
-              I play as a second baseman at the Barons Wrocław baseball club. I
-              try to spend weekends away from the city, usually in the mountains
-              which I am a big fan of. Long trips on a road bike are also not a
-              problem, try to push my limits and set more difficult routes and
-              distances. For me, cycling serves as a substitute for riding a
-              motorcycle on which I used to ride a lot. DIY and restoration of
-              vintage motorcycles is something I would like to come back to.
+              I play as an outfielder at the local baseball club. I try to spend
+              weekends away from the city, alternating between mountain trails,
+              long bike rides, and trips on my motorcycle. I am seeking new
+              challenges and places to visit.
             </p>
           </div>
         </section>
       </div>
     </div>
+    <button class="saveToPDF" id="saveToPDF" onclick="scrollToTopAndDownload()">
+      <span> Save as <i class="bi bi-filetype-pdf"></i></span>
+    </button>
   </body>
   <script
     src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"
@@ -518,5 +480,5 @@
     crossorigin="anonymous"
     referrerpolicy="no-referrer"
   ></script>
-  <!-- <script type="text/javascript" src="print.js"></script> -->
+  <script type="text/javascript" src="print.js"></script>
 </html>

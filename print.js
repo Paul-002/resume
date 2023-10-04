@@ -7,27 +7,40 @@ const printOptions = {
   jsPDF: { unit: "mm", format: "a4", orientation: "portrait" },
 };
 
-html2pdf()
-  .from(elementToPrint)
-  .set(printOptions)
-  .toPdf()
-  .get("pdf")
-  .then((pdf) => {
-    const totalPages = pdf.internal.getNumberOfPages();
+function scrollToTopAndDownload() {
+  smoothScroll(executePdfExport);
+}
 
-    for (let i = 1; i <= totalPages; i++) {
-      pdf.setPage(i);
-      pdf.setFontSize(7);
-      pdf.setTextColor(150);
+function smoothScroll(callback) {
+  window.scrollTo({ top: 0, behavior: "smooth" });
 
-      // position of footer
-      pdf.text(
-        pdf.internal.pageSize.getWidth() - 214,
-        pdf.internal.pageSize.getHeight() - 10,
-        "justify"
-      );
-    }
-  })
-  .save();
+  // workaround for blank page download
+  setTimeout(() => {
+    callback();
+  }, 1000);
+}
 
-this.elementPdf.clear();
+function executePdfExport() {
+  html2pdf()
+    .from(elementToPrint)
+    .set(printOptions)
+    .toPdf()
+    .get("pdf")
+    .then((pdf) => {
+      const totalPages = pdf.internal.getNumberOfPages();
+      for (let i = 1; i <= totalPages; i++) {
+        pdf.setPage(i);
+        pdf.setFontSize(7);
+        pdf.setTextColor(150);
+        // position of footer
+        pdf.text(
+          pdf.internal.pageSize.getWidth() - 214,
+          pdf.internal.pageSize.getHeight() - 10,
+          ""
+        );
+      }
+    })
+    .save();
+
+  this.elementPdf.clear();
+}
