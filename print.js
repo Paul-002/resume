@@ -41,6 +41,4 @@ function executePdfExport() {
       }
     })
     .save();
-
-  this.elementPdf.clear();
 }
