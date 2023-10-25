@@ -302,4 +302,18 @@ h4 span:first-child {
   }
 }
 
+@media (max-width: 768px) {
+  #content aside {
+    margin-bottom: 0;
+  }
+
+  .additional-bottom-space {
+    margin-bottom: 10px;
+  }
+
+  .additional-bottom-space.except {
+    margin-bottom: 15px;
+  }
+}
+
 /*# sourceMappingURL=index.css.map */
